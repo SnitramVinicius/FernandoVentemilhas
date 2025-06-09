@@ -30,7 +30,7 @@ export default function Home() {
     <div className="w-full md:w-[55%] flex flex-col justify-between text-justify px-2 md:px-5 pt-5 gap-5 text-white">
       <div>
         <h1 className="text-xl md:text-4xl text-[#bfa375] font-bold">
-         Fernando Ventemilhas
+         Fernando Ventemilhas ROdrigues
         </h1>
         <p className="text-sm md:text-base text-white">OAB/MS nº 123.123</p>
         <div className="h-1 w-10/10 bg-[#c5ab7d] my-4" />
