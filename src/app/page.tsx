@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Navbar from "@/components/Navbar";
 // import Image from 'next/image'
 
@@ -5,6 +6,12 @@ import Navbar from "@/components/Navbar";
 export default function Home() {
   return (
     <>
+    <Head>
+        <title>Fernando Ventemilhas - Advocacia</title>
+        <meta name="description" content="Advogado especializado em Direito do Trabalho, Previdenciário, Civil e Bancário. Atendimento humanizado e personalizado." />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
 <main className="min-h-screen bg-[#06092b] relative">
   <Navbar />
  <div className="flex justify-center items-center w-full h-screen">
@@ -12,7 +19,7 @@ export default function Home() {
 </div>
 </main>
     <section id="sobre" className="bg-white w-full min-h-[100dvh] flex flex-col items-center justify-center px-4 py-10">
-  <h2 className="text-[#d4bc8e] text-xl mb-5 font-semibold">
+  <h2 className="text-[#d4bc8e] text-xl mb-5 font-bold font-[Monteserrat]">
     SOBRE
   </h2>
 
@@ -29,12 +36,12 @@ export default function Home() {
 
     <div className="w-full md:w-[55%] flex flex-col justify-between text-justify px-2 md:px-5 pt-5 gap-5 text-white">
       <div>
-        <h1 className="text-xl md:text-4xl text-[#bfa375] font-bold">
-         Fernando Ventemilhas ROdrigues
+        <h1 className="text-xl md:text-3xl text-[#bfa375] font-LIGHT font-[Raleway]">
+        Fernando Rodrigues Ventemilhas
         </h1>
-        <p className="text-sm md:text-base text-white">OAB/MS nº 123.123</p>
+        <p className="text-sm md:text-base text-white font-[Monteserrat] ">OAB/MS nº 123.123</p>
         <div className="h-1 w-10/10 bg-[#c5ab7d] my-4" />
-      <p className="text-sm md:text-base 2xl:text-xl leading-relaxed text-white first-letter:text-[#bfa375] first-letter:text-5xl 2xl:first-letter:text-6xl first-letter:float-left first-letter:leading-none first-letter:pr-2 first-letter:font-extralight">
+      <p className="text-sm md:text-base 2xl:text-xl leading-relaxed text-white first-letter:text-[#bfa375] first-letter:text-5xl 2xl:first-letter:text-7xl first-letter:float-left first-letter:leading-none first-letter:pr-2 first-letter:font-extralight font-[Raleway] first-letter:font-[Monteserrat]">
 Eu sou Fernando Rodrigues Ventemilhas, advogado formado pelo Centro Universitário Anhanguera e pós-graduado em Direito do Trabalho pela Faculdade Gran.
 Atuo com ética e comprometimento nas áreas de Direito do Trabalho, Direito do Consumidor e Direito Bancário.
 <br /><br />
@@ -59,8 +66,8 @@ Conte comigo para representar e orientar você em todas as etapas do seu process
   className="absolute inset-0 w-full h-full object-cover object-center z-0 opacity-40"
 />
   <div className="z-10 relative w-full max-w-7xl flex flex-col items-center">
-    <h1 className="text-[#bfa375] text-2xl mb-1 font-light">Áreas de</h1>
-    <h1 className="text-white text-3xl mb-20 font-light">ATUAÇÃO</h1>
+    <h1 className="text-[#bfa375] text-2xl mb-1 font-light font-[Monteserrat]">Áreas de</h1>
+    <h1 className="text-white text-3xl mb-15 font-light font-[Raleway]">ATUAÇÃO</h1>
 
     <div className="flex flex-wrap justify-center gap-4 z-10">
     <div className="bg-white bg-opacity-90 p-6 rounded-xl shadow-md w-full sm:flex-1 sm:min-w-[280px] sm:max-w-[350px] h-auto flex flex-col items-center px-10">
@@ -71,11 +78,11 @@ Conte comigo para representar e orientar você em todas as etapas do seu process
       Ícone por <a href="https://www.freepik.com" className="underline hover:text-[#c69535]" target="_blank" rel="noopener noreferrer">Freepik</a> via <a href="https://www.flaticon.com/br/" className="underline hover:text-[#c69535]" target="_blank" rel="noopener noreferrer">Flaticon</a>
     </p>
 
-    <h3 className="font-bold text-center mb-2 text-[#411417]">
+    <h3 className="font-bold text-center mb-2 text-[#411417] font-[Raleway]">
       Direito do Trabalho
     </h3>
 
-    <p className="text-center text-sm text-[#c69535] text-justify">
+    <p className="text-center text-sm text-[#c69535] text-justify font-[Raleway]">
      Atuamos na representação de empregados e empregadores em todas as esferas da Justiça do Trabalho. Nossa atuação abrange reclamações trabalhistas, análise de vínculos empregatícios, rescisões contratuais, horas extras, adicional de periculosidade/insalubridade, assédio moral ou sexual no ambiente de trabalho, além de consultoria preventiva e elaboração de pareceres para empresas, a fim de minimizar riscos e litígios trabalhistas.
     </p>
       </div>
@@ -87,11 +94,11 @@ Conte comigo para representar e orientar você em todas as etapas do seu process
     Ícone por <a href="https://www.flaticon.com/br/autores/eucalyp" title="Eucalyp" className="underline hover:text-[#c69535]" target="_blank" rel="noopener noreferrer">Eucalyp</a> via <a href="https://www.flaticon.com/br/" title="Flaticon" className="underline hover:text-[#c69535]" target="_blank" rel="noopener noreferrer">Flaticon</a>
   </p>
 
-  <h3 className="font-bold text-center mb-2 text-[#411417]">
+  <h3 className="font-bold text-center mb-2 text-[#411417] font-[Raleway]">
     Direito Previdenciário
   </h3>
   
-  <p className="text-center text-sm text-[#c69535] text-justify">
+  <p className="text-center text-sm text-[#c69535] text-justify font-[Raleway]">
     Prestamos assessoria jurídica completa na área previdenciária, com foco no atendimento a segurados do INSS, servidores públicos e beneficiários de regimes próprios de previdência. Atuamos na concessão e revisão de aposentadorias, auxílios por incapacidade, além de ações judiciais em casos de indeferimentos ou atrasos administrativos. Buscamos garantir a efetivação dos direitos previdenciários de forma justa e célere.
   </p>
 </div>
@@ -104,11 +111,11 @@ Conte comigo para representar e orientar você em todas as etapas do seu process
     Ícone por <a href="https://www.freepik.com" title="Freepik" className="underline hover:text-[#c69535]" target="_blank" rel="noopener noreferrer">Freepik</a> via <a href="https://www.flaticon.com/br/" title="Flaticon" className="underline hover:text-[#c69535]" target="_blank" rel="noopener noreferrer">Flaticon</a>
   </p>
 
-  <h3 className="font-bold text-center mb-2 text-[#411417]">
+  <h3 className="font-bold text-center mb-2 text-[#411417] font-[Raleway]">
     Direito Civil
   </h3>
 
-  <p className="text-center text-sm text-[#c69535] text-justify">
+  <p className="text-center text-sm text-[#c69535] text-justify font-[Raleway]">
     Nossa atuação em Direito Civil abrange uma ampla gama de demandas, incluindo responsabilidade civil, indenizações por danos materiais e morais, direito contratual, direito de família (divórcio, guarda, alimentos), inventários e testamentos, posse e propriedade, além de disputas entre particulares. Trabalhamos sempre com foco na solução eficaz dos conflitos, seja por via judicial ou extrajudicial, prezando pela segurança jurídica e proteção dos interesses dos nossos clientes.
   </p>
 </div>
@@ -121,11 +128,11 @@ Conte comigo para representar e orientar você em todas as etapas do seu process
     Ícone por <a href="https://www.flaticon.com/br/autores/icon-home" title="Icon home" className="underline hover:text-[#c69535]" target="_blank" rel="noopener noreferrer">Icon Home</a> via <a href="https://www.flaticon.com/br/" title="Flaticon" className="underline hover:text-[#c69535]" target="_blank" rel="noopener noreferrer">Flaticon</a>
   </p>
 
-  <h3 className="font-bold text-center mb-2 text-[#411417]">
+  <h3 className="font-bold text-center mb-2 text-[#411417] font-[Raleway]">
     Direito Bancário
   </h3>
 
-  <p className="text-center text-sm text-[#c69535] text-justify">
+  <p className="text-center text-sm text-[#c69535] text-justify font-[Raleway]">
     Oferecemos assessoria especializada em Direito Bancário, com atuação voltada à proteção dos consumidores e empresas diante de práticas abusivas e contratos leoninos impostos por instituições financeiras. Realizamos análise e revisão de contratos de financiamento, empréstimos, cartões de crédito, cheque especial, bem como ações judiciais relativas a juros abusivos, anatocismo, negativação indevida e cobrança indevida. Buscamos soluções justas e equilibradas para as relações entre clientes e bancos.
   </p>
 </div>
@@ -136,20 +143,20 @@ Conte comigo para representar e orientar você em todas as etapas do seu process
 
        <section id="areas" className=" w-full min-h-screen flex flex-col items-center justify-center px-4 py-8 bg-white">
 
-        <h1 className="text-[#bfa375] text-2xl mb-1 font-light">
+        <h1 className="text-[#bfa375] text-2xl mb-1 font-light font-[Monteserrat]">
   Entenda o processo
 </h1>
-   <h1 className="text-[#16162d] text-3xl mb-20 font-light">
+   <h1 className="text-[#16162d] text-3xl mb-20 font-light font-[Raleway]">
   COMO EU TRABALHO
 </h1>
 
 <div className="flex flex-wrap justify-center gap-4 object-cover z-10">
   <div className="bg-[#16162d] p-6 rounded-xl shadow-md w-full sm:flex-1 sm:min-w-[280px] sm:max-w-[350px] h-auto flex flex-col items-center px-10">
     <img src="/direito-penal.png" alt="" className="h-7" />
-    <h3 className="font-bold text-center mb-2 text-whit">
+    <h3 className="font-bold text-center mb-2 text-whit font-[Raleway]">
       Analise
     </h3>
-    <p className="text-center text-sm text-whit text-justify">
+    <p className="text-center text-sm text-whit text-justify font-[Raleway]">
       Iniciamos com um estudo detalhado da situação do cliente, reunindo documentos, informações e histórico jurídico. Essa etapa permite identificar riscos, inconsistências e oportunidades de ação nas áreas trabalhista, previdenciária, civil e bancária, garantindo uma compreensão completa do caso antes de qualquer medida
 
     </p>
@@ -157,10 +164,10 @@ Conte comigo para representar e orientar você em todas as etapas do seu process
 
   <div className="bg-[#16162d] p-6 rounded-xl shadow-md w-full sm:flex-1 sm:min-w-[280px] sm:max-w-[350px] h-auto flex flex-col items-center px-10">
     <img src="/plano-de-aposentadoria.png" alt="" className="h-7" />
-    <h3 className="font-bold text-center mb-2 text-whit">
+    <h3 className="font-bold text-center mb-2 text-whit font-[Raleway]">
       Desenvolvimento
     </h3>
-    <p className="text-center text-sm text-white text-justify">
+    <p className="text-center text-sm text-white text-justify font-[Raleway]">
      Com base na análise, desenvolvemos estratégias jurídicas personalizadas, elaborando petições, defesas, pareceres ou requerimentos administrativos conforme a área de atuação. Nosso trabalho é conduzido com técnica, ética e transparência, mantendo o cliente informado durante todas as fases do processo.
 
     </p>
@@ -168,10 +175,10 @@ Conte comigo para representar e orientar você em todas as etapas do seu process
 
   <div className="bg-[#16162d] p-6 rounded-xl shadow-md w-full sm:flex-1 sm:min-w-[280px] sm:max-w-[350px] h-auto flex flex-col items-center px-10">
     <img src="/justica.png" alt="" className="h-7" />
-    <h3 className="font-bold text-center mb-2 text-whit">
+    <h3 className="font-bold text-center mb-2 text-whit font-[Raleway]">
       Entrega
     </h3>
-    <p className="text-center text-sm text-whit text-justify">
+    <p className="text-center text-sm text-whit text-justify font-[Raleway]">
       Finalizamos com a entrega dos resultados acordados, por meio de relatórios, reuniões ou protocolos judiciais. Garantimos clareza, pontualidade e acompanhamento até a conclusão efetiva do caso, reforçando nosso compromisso com a segurança jurídica e a confiança de nossos clientes.
     </p>
   </div>
@@ -193,7 +200,7 @@ Conte comigo para representar e orientar você em todas as etapas do seu process
 >
   <div className="flex items-center gap-2 cursor-pointer">
     <img src="/instagram.png" alt="Instagram" className="w-5 h-5" />
-    <h1 className="text-[#fff] md:text-2xl text-sm">@Fernando_Ventemilhas</h1>
+    <h1 className="text-[#fff] md:text-md text-sm font-[Raleway]">@Fernando_Ventemilhas</h1>
   </div>
 </a>
   <a
@@ -203,7 +210,7 @@ Conte comigo para representar e orientar você em todas as etapas do seu process
 >
   <div className="flex items-center gap-2 cursor-pointer">
     <img src="/facebook.png" alt="Instagram" className="w-5 h-5" />
-    <h1 className="text-[#fff] md:text-2xl text-sm">@Fernando_Ventemilhas</h1>
+    <h1 className="text-[#fff] md:text-md text-sm font-[Raleway]">@Fernando_Ventemilhas</h1>
   </div>
 </a>
 <a
@@ -211,7 +218,7 @@ Conte comigo para representar e orientar você em todas as etapas do seu process
 >
   <div className="flex items-center gap-2 cursor-pointer">
     <img src="/e-mail.png" alt="Email" className="w-5 h-5" />
-    <h1 className="text-[#fff] md:text-2xl text-sm">
+    <h1 className="text-[#fff] md:text-md text-sm font-[Raleway]">
       fernandoVentemilhas@gmail.com
     </h1>
   </div>
@@ -223,7 +230,7 @@ Conte comigo para representar e orientar você em todas as etapas do seu process
 >
   <div className="flex items-center gap-2">
     <img src="/whatsapp.png" alt="WhatsApp" className="w-5 h-5" />
-    <h1 className="text-[#fff] md:text-2xl text-sm">(67) 9 9999-9999</h1>
+    <h1 className="text-[#fff] md:text-md text-sm font-[Raleway]">(67) 9 9999-9999</h1>
   </div>
 </a>
     </div>
@@ -233,7 +240,7 @@ Conte comigo para representar e orientar você em todas as etapas do seu process
 
 <footer className="w-full text-white text-center bg-[#16162d] py-4">
   <div className="h-1 w-5/10 bg-[#c5ab7d] my-4 mx-auto"/>
-  <p className="text-[7px] sm:text-[10px]">
+  <p className="text-[7px] sm:text-[10px] font-[Monteserrat]">
     &copy; Copyright 2025. Todos os Direitos Reservados. Fernando Ventemilhas Advogado. Desenvolvido por Vinicius Martins
   </p>
 </footer>

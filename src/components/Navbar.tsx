@@ -39,10 +39,10 @@ export default function Navbar() {
 
       {/* Navegação para desktop */}
       <div className="hidden md:flex justify-center space-x-20 py-4">
-        <a href="#sobre" className="hover:text-[#c5ab7d] text-md">Sobre</a>
-        <a href="#areas" className="hover:text-[#c5ab7d] text-md">Áreas de atuação</a>
-        <a href="#atendimento" className="hover:text-[#c5ab7d] text-md">Entrega</a>
-        <a href="#contato" className="hover:text-[#c5ab7d] text-md">Contato</a>
+        <a href="#sobre" className="hover:text-[#c5ab7d] text-md font-[Raleway]">SOBRE</a>
+        <a href="#areas" className="hover:text-[#c5ab7d] text-md font-[Raleway]">ÁREAS DE ATUAÇÃO</a>
+        <a href="#atendimento" className="hover:text-[#c5ab7d] text-md font-[Raleway]">ENTREGA</a>
+        <a href="#contato" className="hover:text-[#c5ab7d] text-md font-[Raleway]">CONTATO</a>
       </div>
 
       {/* Menu mobile */}
@@ -55,29 +55,29 @@ export default function Navbar() {
           </div>
 
           <nav className="flex flex-col items-start text-left space-y-6 mt-1">
-            <button onClick={() => scrollToSection('sobre')} className="hover:text-[#c5972c] text-lg">SOBRE</button>
-            <button onClick={() => scrollToSection('areas')} className="hover:text-[#c5972c] text-lg">ÁREAS DE ATUAÇÃO</button>
-            <button onClick={() => scrollToSection('atendimento')} className="hover:text-[#c5972c] text-lg">ENTREGA</button>
-            <button onClick={() => scrollToSection('contato')} className="hover:text-[#c5972c] text-lg">CONTATO</button>
+            <button onClick={() => scrollToSection('sobre')} className="hover:text-[#c5972c] text-lg font-[Raleway]">SOBRE</button>
+            <button onClick={() => scrollToSection('areas')} className="hover:text-[#c5972c] text-lg font-[Raleway]">ÁREAS DE ATUAÇÃO</button>
+            <button onClick={() => scrollToSection('atendimento')} className="hover:text-[#c5972c] text-lg font-[Raleway]">ENTREGA</button>
+            <button onClick={() => scrollToSection('contato')} className="hover:text-[#c5972c] text-lg font-[Raleway]">CONTATO</button>
           </nav>
 
           <div className="mt-10 text-sm space-y-3">
-            <p className="font-semibold text-[#c5972c]">Outras formas de contato</p>
+            <p className="font-Light text-[#c5972c] font-[Raleway]">OUTRAS FORMAS DE CONTATO</p>
             <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:underline">
               <Instagram size={16} />
-              <span>@Fernando_Ventemilhas</span>
+              <span className="font-[Raleway]">@Fernando_Ventemilhas</span>
             </a>
             <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:underline">
               <Facebook size={16} />
-              <span>@Fernando_Ventemilhas</span>
+              <span className="font-[Raleway]">@Fernando_Ventemilhas</span>
             </a>
             <a href="mailto:fernandoVentemilhas@gmail.com" className="flex items-center gap-2 hover:underline">
               <Mail size={16} />
-              <span>fernandoVentemilhas@gmail.com</span>
+              <span className="font-[Raleway]">fernandoVentemilhas@gmail.com</span>
             </a>
             <a href="https://www.whatsapp.com/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:underline">
               <Phone size={16} />
-              <span>(67) 99194-4153</span>
+              <span className="font-[Raleway]">(67) 99194-4153</span>
             </a>
           </div>
         </div>
