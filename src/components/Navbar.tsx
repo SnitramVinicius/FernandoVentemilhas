@@ -30,14 +30,12 @@ export default function Navbar() {
 
   return (
     <header className="bg-[#2b2b40] text-white shadow-md max-w-2xl mx-auto rounded-b-2xl font-open z-10 relative">
-      {/* Botão do menu mobile */}
       <div className="md:hidden absolute right-4 top-4 z-20">
         <button onClick={() => setMenuOpen(!menuOpen)}>
           {menuOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
       </div>
 
-      {/* Navegação para desktop */}
       <div className="hidden md:flex justify-center space-x-20 py-4">
         <a href="#sobre" className="hover:text-[#c5ab7d] text-md font-[Raleway]">SOBRE</a>
         <a href="#areas" className="hover:text-[#c5ab7d] text-md font-[Raleway]">ÁREAS DE ATUAÇÃO</a>
@@ -45,7 +43,6 @@ export default function Navbar() {
         <a href="#contato" className="hover:text-[#c5ab7d] text-md font-[Raleway]">CONTATO</a>
       </div>
 
-      {/* Menu mobile */}
       {menuOpen && (
         <div className="fixed inset-0 bg-black/40 backdrop-blur-md text-white z-50 flex flex-col justify-between p-6">
           <div className="flex justify-end">
@@ -63,19 +60,20 @@ export default function Navbar() {
 
           <div className="mt-10 text-sm space-y-3">
             <p className="font-Light text-[#c5972c] font-[Raleway]">OUTRAS FORMAS DE CONTATO</p>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:underline">
+            <a href="https://www.instagram.com/fernando_ventemilhas" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:underline">
               <Instagram size={16} />
               <span className="font-[Raleway]">@Fernando_Ventemilhas</span>
             </a>
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:underline">
+            <a href="https://www.facebook.com/share/1YDVBGLqwp/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:underline">
               <Facebook size={16} />
               <span className="font-[Raleway]">@Fernando_Ventemilhas</span>
             </a>
-            <a href="mailto:fernandoVentemilhas@gmail.com" className="flex items-center gap-2 hover:underline">
+            <a href="mailto:fernandoventemillhas@gmail.com?subject=Solicitação%20de%20Atendimento%20Jurídico&body=Olá,%20gostaria%20de%20agendar%20um%20atendimento%20jurídico.%0ASeguem%20meus%20dados%20para%20contato:%0A%0ANome:%0ATelefone/WhatsApp:%0AAssunto:" className="flex items-center gap-2 hover:underline">
               <Mail size={16} />
               <span className="font-[Raleway]">fernandoVentemilhas@gmail.com</span>
             </a>
-            <a href="https://www.whatsapp.com/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:underline">
+            <a href="https://api.whatsapp.com/send?phone=5567991347729
+&text=Olá,%20gostaria%20de%20agendar%20um%20atendimento%20jurídico.%0ASeguem%20meus%20dados%20para%20contato:%0A%0ANome:%0ATelefone/WhatsApp:%0AAssunto:" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:underline">
               <Phone size={16} />
               <span className="font-[Raleway]">(67) 99194-4153</span>
             </a>
