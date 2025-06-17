@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import ScrollToTopButton from "@/components/ScrollToTopButton";
 
 export const metadata = {
   title: "Fernando Ventemilhas - Advocacia",
@@ -8,6 +9,7 @@ export default function Home() {
   return (
     <>
 <main className="min-h-screen bg-[#06092b] relative">
+  <ScrollToTopButton />
   <Navbar />
  <div className="flex justify-center items-center w-full h-screen">
   <img src="/Logo2.png" alt="" className="md:w-3xl w-100"/>
@@ -136,7 +138,7 @@ Conte comigo para representar e orientar você em todas as etapas do seu process
 </section>
 
 
-       <section id="areas" className=" w-full min-h-screen flex flex-col items-center justify-center px-4 py-8 bg-white">
+       <section id="entrega" className=" w-full min-h-screen flex flex-col items-center justify-center px-4 py-8 bg-white">
 
         <h1 className="text-[#bfa375] text-2xl mb-1 font-light font-[Monteserrat]">
   Entenda o processo

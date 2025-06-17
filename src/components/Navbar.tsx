@@ -39,7 +39,7 @@ export default function Navbar() {
       <div className="hidden md:flex justify-center space-x-20 py-4">
         <a href="#sobre" className="hover:text-[#c5ab7d] text-md font-[Raleway]">SOBRE</a>
         <a href="#areas" className="hover:text-[#c5ab7d] text-md font-[Raleway]">ÁREAS DE ATUAÇÃO</a>
-        <a href="#atendimento" className="hover:text-[#c5ab7d] text-md font-[Raleway]">ENTREGA</a>
+        <a href="#entrega" className="hover:text-[#c5ab7d] text-md font-[Raleway]">ENTREGA</a>
         <a href="#contato" className="hover:text-[#c5ab7d] text-md font-[Raleway]">CONTATO</a>
       </div>
 
@@ -54,7 +54,7 @@ export default function Navbar() {
           <nav className="flex flex-col items-start text-left space-y-6 mt-1">
             <button onClick={() => scrollToSection('sobre')} className="hover:text-[#c5972c] text-lg font-[Raleway]">SOBRE</button>
             <button onClick={() => scrollToSection('areas')} className="hover:text-[#c5972c] text-lg font-[Raleway]">ÁREAS DE ATUAÇÃO</button>
-            <button onClick={() => scrollToSection('atendimento')} className="hover:text-[#c5972c] text-lg font-[Raleway]">ENTREGA</button>
+            <button onClick={() => scrollToSection('entrega')} className="hover:text-[#c5972c] text-lg font-[Raleway]">ENTREGA</button>
             <button onClick={() => scrollToSection('contato')} className="hover:text-[#c5972c] text-lg font-[Raleway]">CONTATO</button>
           </nav>
 
