@@ -2,9 +2,10 @@
 
 import { useState, useEffect } from "react";
 import { Menu, X, Mail, Instagram, Phone, Facebook } from "lucide-react";
+import { useMenu } from "@/context/MenuContext";
 
 export default function Navbar() {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const { menuOpen, setMenuOpen } = useMenu();
 
   useEffect(() => {
     const body = document.body;
@@ -83,4 +84,3 @@ export default function Navbar() {
     </header>
   );
 }
-

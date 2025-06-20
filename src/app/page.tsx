@@ -80,7 +80,7 @@ Conte comigo para representar e orientar você em todas as etapas do seu process
     </h3>
 
     <p className="text-center text-sm text-[#c69535] text-justify font-[Raleway]">
-     Atuamos na representação de empregados e empregadores em todas as esferas da Justiça do Trabalho. Nossa atuação abrange reclamações trabalhistas, análise de vínculos empregatícios, rescisões contratuais, horas extras, adicional de periculosidade/insalubridade, assédio moral ou sexual no ambiente de trabalho, além de consultoria preventiva e elaboração de pareceres para empresas, a fim de minimizar riscos e litígios trabalhistas.
+     Atuo em diversas áreas do Direito do Trabalho, incluindo análise de contratos, reclamações de verbas rescisórias, horas extras, adicionais de periculosidade e insalubridade, além de casos de assédio moral e discriminação. Meu compromisso é garantir acesso à Justiça, orientando os trabalhadores sobre seus direitos e representando-os em ações judiciais e administrativas. Acredito na importância de promover um ambiente de trabalho justo e respeitoso, buscando sempre a melhor solução para cada caso, sempre com foco na defesa dos direitos dos trabalhadores, assegurando que suas conquistas sejam respeitadas.
     </p>
       </div>
 
